@@ -2,20 +2,19 @@
 
 import { LogBox } from 'react-native'
 
-export const DEFAULT_SERVER_URL = 'https://my.sapsailing.com'
+export const DEFAULT_SERVER_URL = 'https://sa.koornstra.com'
 // export const DEFAULT_SERVER_URL = 'https://dev.sapsailing.com'
 // Fallback hosts tried, in order, when login against the configured server
 // fails for reasons other than rejected credentials (network error / server down).
 export const LOGIN_FALLBACK_SERVER_URLS = [
-  'https://sapsailing.com',
-  'https://security-service.sapsailing.com',
+  'https://sa.koornstra.com',
 ]
 export const DATA_API_PREFIX = '/sailingserver/api/v1'
 export const SHARED_DATA_API_PREFIX = '/sharedsailingserver/api/v1'
 export const DATA_API_V2_PREFIX = '/sailingserver/api/v2'
 export const AUTH_API_PREFIX = '/security/api/restsecurity'
 export const RACE_API_PREFIX = '/sailingserver/rc'
-export const BRANCH_APP_DOMAIN = 'sailinsight30-app.sapsailing.com'
+export const BRANCH_APP_DOMAIN = 'sa.koornstra.com'
 
 export const init = () => {
   // initializations for local development
