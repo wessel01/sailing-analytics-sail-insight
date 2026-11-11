@@ -33,7 +33,7 @@ jobs:
           ./gradlew assembleLiveDebug
 
       - name: Upload APK Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: app-live-debug
           path: android/app/build/outputs/apk/live/debug/app-live-debug.apk
